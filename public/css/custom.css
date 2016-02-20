@@ -1,0 +1,9 @@
+p{
+	/*text-align: justify; */
+	text-justify: inter-word;
+}
+
+#partenairesCommerciaux div div img{
+	height: 170px;
+	margin-bottom: 30px;
+}
