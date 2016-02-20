@@ -351,4 +351,102 @@ class WebsiteController extends Controller
 
         return view('Frontend.materiel', compact('listMateriel'));
     }
+
+    public function partenaires()
+    {
+        $listPartenaires = array(
+            array('img' => 'images/partenaires/credal.jpg',
+                'description' => 'La coopérative « CREDAL ASBL » est spécialisée dans le placement éthique, l’accompagnement de projets et l’octroi de crédit solidaire, c’est grâce à leur confiance que nous avons pu faire l’acquisition de notre camion ″NISSAN Atleon″.',
+                'url' => 'http://www.credal.be/',
+                'alt' => 'Logo credal'
+            ),
+            array('img' => 'images/partenaires/DEBEULESABINE.png',
+                'description' => 'Les lettrages publicitaires « SABINE DE BEULE » sont spécialisée dans la peinture sur les tracteurs poids lourd. Adhésif sur tous les types de véhicules, panneaux, vitrines, calicots, etc. Graphisme et dessins artistiques. Décoration de vitrines pour les fêtes. Sérigraphie et impression sur textile, impression sur film vinyle.',
+                'url' => 'http://www.lettragesabine.be',
+                'alt' => 'Logo Debeule Sabine'
+            ),
+            array('img' => 'images/partenaires/dune.jpg',
+                'description' => 'L’équipe professionnelle de « DUNE it’s a World of Music » est spécialisée dans la vente, la location et l’installation de matériel de sonorisation et de lumière.',
+                'url' => 'https://fr-fr.facebook.com/duneliege',
+                'alt' => 'logo groupe dune'
+            ),
+            array('img' => 'images/partenaires/DUPUISSPRL.jpg',
+                'description' => 'La société « PIERRE DUPUIS SPRL » et ses filiales vous propose les services d’une agence bancaire indépendante du réseau ING Belgique, d’un bureau de courtage en assurances toutes compagnies et un département immobilier.',
+                'url' => 'http://www.pierre-dupuis.be',
+                'alt' => 'logo dupuis SPRL'
+            ),
+            array('img' => 'images/partenaires/IMPRIMAT.jpg',
+                'description' => 'La société « IMPRIMAT SPRL » est notre partenaire bureautique depuis bientôt 20 ans ! Vous y trouverez les conseils d’un personnel disponible et qualifié. Un stock important de matériel de bureau et une large gamme de produits de papeterie,
+                           sans oublier, le département POLYPRINT pour la réalisation de vos travaux d’imprimerie.',
+                'url' => 'http://www.imprimat.be',
+                'alt' => 'logo Imprimat'
+            ),
+            array('img' => 'images/partenaires/ING.jpg',
+                'description' => 'L’agence bancaire indépendante « ING LEMAN » est gérée par Pierre DUPUIS et son personnel cette agence bancaire est située, Place du Général LEMAN, 16 à B-4000 LIÈGE.',
+                'url' => 'http://www.ing.be',
+                'alt' => 'logo ING'
+            ),
+            array('img' => 'images/mosaPrestataires/maisonFrancaise.jpg',
+                'description' => 'La « MAISON FRANÇAISE » est le spécialiste depuis 1939 du vêtement de cérémonies de suite et de ville en petites et grandes tailles. Costumes enfants de 6 mois à 16 ans ainsi que chaussures et accessoires adaptés aux costumes. Le patron Angelo est à votre service au magasin et vous propose : choix, qualité, prix étudiés, accueil personnalisé pour le succès des hommes.',
+                'url' => 'http://www.maisonfrancaise.be/',
+                'alt' => 'logo maison française'
+            ),
+            array('img' => 'images/partenaires/z - MATELEK.jpg',
+                'description' => 'Le magasin « MATELEK » est le : Led Lights Center Osram de Liège et est spécialisé dans l’éclairage et le commerce de gros de matériel électrique, y compris le matériel d’installation.',
+                'url' => 'http://www.matelek.be/',
+                'alt' => 'logo Matelek'
+            ),
+            array('img' => 'images/partenaires/NISSAN-TRUCKS.png',
+                'description' => 'Nous avons choisis de faire confiance aux Ets. VANDORMAEL qui est spécialisé en véhicules utilitaires depuis 3 générations et qui est le concessionnaire officiel « NISSAN TRUCKS » pour le transport de notre matériel.',
+                'url' => 'http://www.ets-vandormael.be/',
+                'alt' => 'logo Nissan'
+            ),
+            array('img' => 'images/partenaires/PANTHER PRINT.jpg',
+                'description' => 'La société « KOTO PANTHER PRINT » est une imprimerie « made in belgium » pour l’impression en 48h de vos : affiches, brochures, cartes de visite, dépliants, flyers.',
+                'url' => 'http://koto.pantherprint.org',
+                'alt' => 'logo Panther print'
+            ),
+            array('img' => 'images/partenaires/deckers.png',
+                'description' => 'Les « REMORQUES JOSEPH DECKERS » est le N°1 en Belgique et vous offre la garantie du meilleur service – qualité – prix de la Province de LIÈGE, depuis plus de 38 ans.
+                          Vente et location de remorques. Pose d’attelages pour tous types de véhicules. Vente de porte vélo THULE.',
+                'url' => 'http://www.remorques-deckers.com',
+                'alt' => 'logo remorques Deckers'
+            ),
+            array('img' => 'images/partenaires/SABAM.jpg',
+                'description' => 'La « SABAM » c’est la Société Belge des Auteurs, Compositeurs et Editeurs. Créée en 1922 à l\'initiative d’auteurs, la SABAM regroupe à l\'heure actuelle des milliers d\'auteurs, toutes disciplines confondues. Trop souvent exclusivement associée à la musique,
+                          la SABAM revendique son caractère pluridisciplinaire. Cette singularité fait de la SABAM un cas presque unique dans le monde.',
+                'url' => 'http://www.sabam.be',
+                'alt' => 'logo SABAM'
+            ),
+            array('img' => 'images/partenaires/SMART.jpg',
+                'description' => 'L’ASBL « SMARTBE – PRODUCTIONS ASSOCIÉES » est spécialisée dans la gestion de contrats et la gestion d’Activités artistiques.',
+                'url' => 'http://www.smartbe.be',
+                'alt' => 'logo SMART'
+            ),
+            array('img' => 'images/partenaires/SUPERPLASTIC.jpg',
+                'description' => 'La société « SUPERPLASTIC » c’est le professionnel des matériaux plastiques et vous propose sur plus de 30000 m² un choix de 36000 références.',
+                'url' => 'http://www.superplastic.be',
+                'alt' => 'logo Super plastic'
+            ),
+            array('img' => 'images/partenaires/VEDI.jpg',
+                'description' => 'L’entreprise « VEDI EXPRESS » met son savoir-faire à votre service pour vos impressions géantes, vos outils de communications PLV, votre signalétique
+                          d’entreprise et vos publicités évènementielles. C’est le N°1 de l’impression grand format au meilleur prix.',
+                'url' => 'http://www.vedi-express.com',
+                'alt' => 'logo vedi'
+            ),
+            array('img' => 'images/partenaires/VIVIUM.jpg',
+                'description' => 'Le bureau d’assurances « DUPUIS SPRL » situé, Place du Général LEMAN, 16 à B-4000 LIÈGE, vous propose un service complet pour vos assurances et services bancaires.',
+                'url' => 'http://www.vedi-express.com',
+                'alt' => 'logo vivium'
+            ),
+            array('img' => 'images/partenaires/VLAN.jpg',
+                'description' => 'Les journaux « VLAN » font partie du Groupe Rossel et vous propose avec ses éditions personnalisées toutes l’actualité de votre région et sur « VLAN.BE » – le portail des petites annonces de Belgique – achetez ou vendez des biens neufs ou d\'occasion grâce aux nombreuses petites annonces classées en rubriques avec des descriptions détaillées et photos.',
+                'url' => 'http://www.vlan.be/fr/index.php',
+                'alt' => 'logo VLAN'
+            )
+        );
+
+        return view('Frontend.partenaires', compact('listPartenaires'));
+    }
+
 }
