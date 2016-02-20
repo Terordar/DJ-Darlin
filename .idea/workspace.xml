@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bddcae17-b67c-4e2c-a607-fc9ab50c7d25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Frontend/partenaires.blade.php" afterPath="$PROJECT_DIR$/resources/views/Frontend/partenaires.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Frontend/mentions-legales.blade.php" afterPath="$PROJECT_DIR$/resources/views/Frontend/mentions-legales.blade.php" />
     </list>
     <ignored path="SiteDJLaravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,25 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.61445785">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partenaires.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/Frontend/partenaires.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39977604">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding>
-                <element signature="e#145#168#0#HTML" expanded="true" />
-                <element signature="e#256#279#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -62,13 +48,29 @@
       <file leaf-file-name="WebsiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.807692">
-              <caret line="443" column="57" selection-start-line="443" selection-start-column="57" selection-end-line="443" selection-end-column="57" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="218" column="10" selection-start-line="218" selection-start-column="10" selection-end-line="218" selection-end-column="10" />
               <folding>
                 <element signature="e#232#5078#0#PHP" expanded="false" />
                 <element signature="e#5099#9723#0#PHP" expanded="false" />
                 <element signature="e#9752#11774#0#PHP" expanded="false" />
                 <element signature="e#11804#14352#0#PHP" expanded="false" />
+                <element signature="e#14478#21679#0#PHP" expanded="false" />
+                <element signature="e#21685#29611#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mentions-legales.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Frontend/mentions-legales.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-33.03846">
+              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+              <folding>
+                <element signature="e#225#281#0#HTML" expanded="true" />
+                <element signature="e#501#543#0#HTML" expanded="true" />
+                <element signature="e#555#578#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,14 +94,14 @@
         <option value="$PROJECT_DIR$/resources/views/Frontend/Menus/references.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/references.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/materiel.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Frontend/mentions-legales.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/prix.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/contrat.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/devis.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/contact.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php" />
         <option value="$PROJECT_DIR$/resources/views/Frontend/partenaires.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Frontend/mentions-legales.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -303,7 +305,7 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -377,7 +379,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#225#281#0#HTML" expanded="true" />
+            <element signature="e#501#543#0#HTML" expanded="true" />
+            <element signature="e#555#578#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -414,6 +420,8 @@
             <element signature="e#5099#9723#0#PHP" expanded="false" />
             <element signature="e#9752#11774#0#PHP" expanded="false" />
             <element signature="e#11804#14352#0#PHP" expanded="false" />
+            <element signature="e#14478#21679#0#PHP" expanded="false" />
+            <element signature="e#21685#29611#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -490,14 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/mentions-legales.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Frontend/contrat.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -530,23 +530,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/partenaires.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.807692">
-          <caret line="443" column="57" selection-start-line="443" selection-start-column="57" selection-end-line="443" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.39977604">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
-            <element signature="e#232#5078#0#PHP" expanded="false" />
-            <element signature="e#5099#9723#0#PHP" expanded="false" />
-            <element signature="e#9752#11774#0#PHP" expanded="false" />
-            <element signature="e#11804#14352#0#PHP" expanded="false" />
+            <element signature="e#145#168#0#HTML" expanded="true" />
+            <element signature="e#256#279#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,14 +549,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/partenaires.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/Frontend/mentions-legales.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39977604">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state vertical-scroll-proportion="-33.03846">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
           <folding>
-            <element signature="e#145#168#0#HTML" expanded="true" />
-            <element signature="e#256#279#0#HTML" expanded="true" />
+            <element signature="e#225#281#0#HTML" expanded="true" />
+            <element signature="e#501#543#0#HTML" expanded="true" />
+            <element signature="e#555#578#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="218" column="10" selection-start-line="218" selection-start-column="10" selection-end-line="218" selection-end-column="10" />
+          <folding>
+            <element signature="e#232#5078#0#PHP" expanded="false" />
+            <element signature="e#5099#9723#0#PHP" expanded="false" />
+            <element signature="e#9752#11774#0#PHP" expanded="false" />
+            <element signature="e#11804#14352#0#PHP" expanded="false" />
+            <element signature="e#14478#21679#0#PHP" expanded="false" />
+            <element signature="e#21685#29611#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61445785">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

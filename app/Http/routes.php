@@ -17,10 +17,13 @@ Route::group(['middleware' => ['web']], function () {
         return view('Frontend.references');
     });
 
+    Route::get('/mentions-legales', function(){
+        return view('Frontend.mentions-legales');
+    });
 
     Route::get('/partenaires', 'WebsiteController@partenaires');
 
-    /*Route::get('/mentions-legales', 'WebsiteController@mentions-legales');
+    /*
     Route::get('/prix', 'WebsiteController@prix');
     Route::get('/', 'WebsiteController@index');
     Route::get('/', 'WebsiteController@index');*/
