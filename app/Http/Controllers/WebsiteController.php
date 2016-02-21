@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\DevisRequest;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -449,7 +450,7 @@ class WebsiteController extends Controller
         return view('Frontend.partenaires', compact('listPartenaires'));
     }
 
-    public function sendDevis(){
-
+    public function sendDevis(DevisRequest $request){
+        return 'fsdfsdfs';
     }
 }

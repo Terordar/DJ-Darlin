@@ -5,10 +5,9 @@
 @section('content')
     <section id="contact-page" style="padding-top: 60px;">
         <div class="container">
-            <div class="center">
                 @if ( $errors->count() > 0 )
-                    <div class="box-body">
-                        <div class="callout callout-danger">
+                    <div class="row">
+                        <div class="alert alert-danger">
                             <h4>Erreurs lors de l'ajout du bénévole</h4>
 
                             <ul>
@@ -19,6 +18,7 @@
                         </div>
                     </div>
                 @endif
+            <div class="center">
                 <h2>Demander un devis</h2>
                 <p class="lead">Les devis seront faits sur mesure sur base des renseignements fournis.</p>
             </div>
@@ -92,27 +92,26 @@
                             {!! Form::number('budget', null, ['class' => 'form-control', 'style' => 'width: 80px; display: inline;']) !!}
                         </div>
                         {!! Recaptcha::render([ 'lang' => 'fr' ])  !!}
-                        <div class="g-recaptcha" data-sitekey="6Lc60f8SAAAAAA_GKOvgwWgCIUB1Hko3mr2r32y-"></div>
                 </div>
                 <div class="col-sm-5">
                     <div class="form-group">
-                        <label for="Prenom">Prénom *</label>
-                        <input type="text" name="Prenom" class="form-control" required="required" id = "Prenom">
+                        {!! Form::label('prenom', 'Prénom *') !!}
+                        {!! Form::text('prenom', null, ['class' => 'form-control', 'placeholder' => 'Votre prénom']) !!}
                     </div>
                     <div class="form-group">
-                        <label for="tel">Téléphone</label>
-                        <input type="number" class="form-control" name="tel" id="tel">
+                        {!! Form::label('tel', 'Téléphone') !!}
+                        {!! Form::text('tel', null, ['class' => 'form-control', 'placeholder' => 'Votre téléphone']) !!}
                     </div>
                     <div class="form-group">
-                        <label for = "gsm">GSM</label>
-                        <input type="number" name="gsm" id="gsm" class="form-control">
+                        {!! Form::label('gsm', 'GSM') !!}
+                        {!! Form::text('gsm', null, ['class' => 'form-control', 'placeholder' => 'Votre GSM']) !!}
                     </div>
                     <div class="form-group">
-                        <label>Décrivez votre projet</label>
-                        <textarea name="message" id="message" required="required" class="form-control" rows="19"></textarea>
+                        {!! Form::label('message', 'Décrivez votre projet') !!}
+                        {!! Form::textarea('message', null, ['class' => 'form-control', 'placeholder' => 'Une petite description de votre projet ...', 'rows' => '19']) !!}
                     </div>
                     <div class="form-group">
-                        <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Envoyer</button>
+                        {!! Form::submit('Envoyer', ['class' => 'btn btn-primary btn-lg']) !!}
                     </div>
                 </div>
                 </div>
