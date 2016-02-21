@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Mail;
+use App\User;
 
 class WebsiteController extends Controller
 {
@@ -349,7 +351,12 @@ class WebsiteController extends Controller
                 'imgGrande' => 'images/materiel/grande/08SPLASH.jpg',
                 'type' => 'lumiere'),
         );
-
+        Mail::send('Frontend.test',
+            ['testVar' => 'Just a silly test'],
+             function($message) {
+                   $message->to('jeromefink@hotmail.com')
+           ->subject('A simple test');
+        });
         return view('Frontend.materiel', compact('listMateriel'));
     }
 
@@ -451,6 +458,7 @@ class WebsiteController extends Controller
     }
 
     public function sendDevis(DevisRequest $request){
-        return 'fsdfsdfs';
+
+        Mail::send('Frontend.contrat', null, function ($msg) { $msg->to('jeromefink@hotmail.com')->subject('Ceci est un mail');});
     }
 }
