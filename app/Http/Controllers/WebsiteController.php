@@ -449,4 +449,7 @@ class WebsiteController extends Controller
         return view('Frontend.partenaires', compact('listPartenaires'));
     }
 
+    public function sendDevis(){
+
+    }
 }
