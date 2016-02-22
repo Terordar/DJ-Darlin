@@ -4,9 +4,12 @@
     <list default="true" id="bddcae17-b67c-4e2c-a607-fc9ab50c7d25" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Frontend/test.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
+=======
+>>>>>>> Stashed changes
     </list>
     <ignored path="SiteDJLaravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +58,13 @@
       <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/services.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state vertical-scroll-proportion="-14.384615">
               <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+=======
+            <state vertical-scroll-proportion="0.57831323">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -399,11 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1456066810951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New !">
+      <created>1456073881726</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1456073881726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+>>>>>>> Stashed changes
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -440,7 +458,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Devis + captcha OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Devis + captcha OK" />
+    <MESSAGE value="New !" />
+    <option name="LAST_COMMIT_MESSAGE" value="New !" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,8 +823,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Frontend/test.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state vertical-scroll-proportion="-7.8461537">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+=======
+        <state vertical-scroll-proportion="0.57831323">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
