@@ -351,11 +351,14 @@ class WebsiteController extends Controller
                 'imgGrande' => 'images/materiel/grande/08SPLASH.jpg',
                 'type' => 'lumiere'),
         );
-        Mail::send('Frontend.test',
-            ['testVar' => 'Just a silly test'],
-             function($message) {
-                   $message->to('jeromefink@hotmail.com')
-           ->subject('A simple test');
+
+        $data = [
+            'title'=>'test',
+            'content' => 'youpie'
+        ];
+
+        Mail::send('Frontend.test', $data, function ($m){
+            $m->to('jeromefink@hotmail.com', 'Jerome fink')->subject('testificate');
         });
         return view('Frontend.materiel', compact('listMateriel'));
     }

@@ -2,10 +2,10 @@
     This is a test, an email test.
 </p>
 <p>
-    The variable <code>$testVar</code> contains the value:
+    {{$title}}
 </p>
 <ul>
-    <li><strong>{{ $testVar }}</strong></li>
+    <!<li><strong>{{ $content }}</strong></li>
 </ul>
 <hr>
 <p>

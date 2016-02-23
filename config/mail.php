@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'yveslardin@djdarlin.be', 'name' => 'Yves Lardin'],
+    'from' => ['address' => 'info@djdarlin.be', 'name' => 'Yves Lardin'],
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('jeromefink2@gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('H64TTzyCpHF4cybMG3OAJg'),
 
     /*
     |--------------------------------------------------------------------------
