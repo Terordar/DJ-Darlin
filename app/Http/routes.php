@@ -49,6 +49,17 @@ Route::group(['middleware' => ['web']], function () {
        return view('Frontend.devis');
     });
 
+    Route::get('contactez-nous', function(){
+        return view('Frontend.contact');
+    });
+
+    Route::get('pub', function(){
+        return view('Frontend.pub');
+    });
+
+    Route::get('locations', 'WebsiteController@location');
+
+    Route::post('contactez-nous', 'WebsiteController@sendMessage');
     Route::post('devis', 'WebsiteController@sendDevis');
 
     Route::get('partenaires', 'WebsiteController@partenaires');

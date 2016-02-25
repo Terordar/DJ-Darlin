@@ -5,25 +5,7 @@
 @section('content')
     <section id="contact-page" style="padding-top: 60px;">
         <div class="container">
-                @if ( $errors->count() > 0 )
-                    <div class="row">
-                        <div class="alert alert-danger">
-                            <h4>Erreurs lors de l'ajout du bénévole</h4>
-
-                            <ul>
-                                @foreach( $errors->all() as $message )
-                                    <li>{{ $message }}</li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-                @elseif(session('status'))
-                    <div class="row">
-                        <div class="alert alert-success">
-                            {!! session('status') !!}
-                        </div>
-                    </div>
-                @endif
+                @include('errors.send')
             <div class="center">
                 <h2>Demander un devis</h2>
                 <p class="lead">Les devis seront faits sur mesure sur base des renseignements fournis.</p>
