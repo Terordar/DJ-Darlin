@@ -17,6 +17,12 @@
                             </ul>
                         </div>
                     </div>
+                @elseif(session('status'))
+                    <div class="row">
+                        <div class="alert alert-success">
+                            {!! session('status') !!}
+                        </div>
+                    </div>
                 @endif
             <div class="center">
                 <h2>Demander un devis</h2>

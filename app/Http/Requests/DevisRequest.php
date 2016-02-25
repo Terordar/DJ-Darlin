@@ -35,7 +35,7 @@ class DevisRequest extends Request
             'email' => 'required|email',
             'adresse' => 'required',
             'numero' => 'required',
-            'date' => 'date_format:d/m/Y|after:'.$after_date,
+            'date' => 'after:'.$after_date,
             'debut' => 'required',
             'fin' => 'required',
             'g-recaptcha-response' => 'required|recaptcha'

@@ -352,14 +352,6 @@ class WebsiteController extends Controller
                 'type' => 'lumiere'),
         );
 
-        $data = [
-            'title'=>'test',
-            'content' => 'youpie'
-        ];
-
-        Mail::send('Frontend.test', $data, function ($m){
-            $m->to('jeromefink@hotmail.com', 'Jerome fink')->subject('testificate');
-        });
         return view('Frontend.materiel', compact('listMateriel'));
     }
 
@@ -461,7 +453,11 @@ class WebsiteController extends Controller
     }
 
     public function sendDevis(DevisRequest $request){
+        Mail::send('emails.devis', ['data' => $request], function($message)
+        {
+            $message->to('pierreclotuche@gmail.com', 'Pierre Clotuche')->subject('Demande de devis');
+        });
 
-        Mail::send('Frontend.contrat', null, function ($msg) { $msg->to('jeromefink@hotmail.com')->subject('Ceci est un mail');});
+        return redirect('/devis')->with('status', '<strong>Parfait!</strong> Nous avons bien reçu votre message. Nous vous contacterons dès que possible.');
     }
 }
