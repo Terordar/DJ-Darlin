@@ -118,17 +118,14 @@
 <footer id="footer" class="midnight-blue">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-            </div>
-            <div class="col-sm-4">
-                <p class="center">
+            <div class="col-sm-6">
+                <p>
                     <a href="{{ url("/vie-privee") }}" title="Mentions légales">Vie privée</a>
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <p class="pull-right">
-                    Modified by Jérôme Fink and Pierre Clotuche
+                    Made with ♥ by Jérôme Fink and Pierre Clotuche
                 </p>
             </div>
         </div>

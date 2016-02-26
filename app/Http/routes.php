@@ -57,6 +57,10 @@ Route::group(['middleware' => ['web']], function () {
         return view('Frontend.pub');
     });
 
+    Route::get('vie-privee', function(){
+        return view('Frontend.vie-privee');
+    });
+
     Route::get('locations', 'WebsiteController@location');
 
     Route::post('contactez-nous', 'WebsiteController@sendMessage');
