@@ -646,7 +646,7 @@ class WebsiteController extends Controller
                     'LED PIXEL BAR (PAR 2 PIÈCES)' => '60,00',
                     'LED BT-PAR 18TC' => '35,00',
                     'PROJECTEUR PLANO 7TC' => '16,00'
-                ),
+                )),
             array('titre' => 'EFFETS "DISCOTHÈQUE"',
                 'color' => 'blue',
                 'items' => array(
@@ -688,49 +688,149 @@ class WebsiteController extends Controller
                 )),
             array('titre' => 'EFFETS "EXTÉRIEURS"',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    'SKYTRACER 1200 HMI'=>'107,15',
+                    'SKYTRACER 2500HMI "COMET" (DOUBLE ROTATION)'=>'150,00'
+                )),
             array('titre' => 'MACHINES à FUMÉES / BULLES + ARTIFICES',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    'FUMIGÈNE PETIT MODÈLE – AVEC PRODUIT' => '40,00',
+                    'FUMIGÈNE GROS MODÈLE – AVEC PRODUIT' => '55,00',
+                    'FUMIGÈNE DE 2000W – AVEC PRODUIT' => '50,00',
+                    'HAZER (BROUILLARD)' => '45,00',
+                    'MACHINE À NEIGE – AVEC PRODUIT' => '65,00',
+                    'MACHINE À MOUSSE – SANS PRODUIT' => '35.00',
+                    'MACHINE À BULLES – SANS PRODUIT' => '35.00',
+                    'CANON À CONFETTIS (SOCLE + DÉTONATEUR 220V) PROJECTIONS À 8 MÈTRES (2 PIÈCES)' => '45,00',
+                    'CARTOUCHE (PAR PIÈCE)' => '25.00'
+                )),
             array('titre' => 'STROBOSCOPES',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    'STROBOSCOPE (300W)' => '20,00',
+                    'STROBOSCOPE (1500W) DIMMABLE' => '32,85',
+                    'STROBOSCOPE (1800W) AVEC OU SANS DMX' => '37,00'
+                )),
             array('titre' => 'EFFETS "ROBOTISÉS"',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    'MARTIN MAC 250+' => '58,40',
+                    '4 MARTIN MAC 250+ AVEC CONSOLE SM 1612' => '247,80',
+                    'SCAN CLUBSCAN 25W LED (PAR 4 PIÈCES) AVEC COMMANDE' => '95,00',
+                    'LYRES CLUB HEAD 25W LED (PAR 4 PIÈCES) AVEC COMMANDE' => '120,00',
+                    'LYRES BT36II (PAR 4 PIÈCES)' => '125,00',
+                    'LYRES SPOT BT250 MSD DÉCHARGE (PAR 4 PIÈCES)' => '300,00'
+                )),
             array('titre' => 'KITS LIGHT + DJ',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    'KIT 01 : 2 x 4 PAR 56 + PIEDS ET LM400' => '50,00',
+                    'KIT 02 : 2 x 4 PAR 64 LED + PIEDS ET LEDCON 02' => '70,00',
+                    'KIT 03 : IDEM KIT 02 + 2 EFFETS' => '100,00',
+                    'KIT 04 : IDEM KIT 02 + 2 CLUBSCAN ET PONT DE 6 MÈTRES' => '155,00',
+                    'KIT 05 : PONT DE 12 MÈTRES + 4 CLUBSCAN + 16 PAR 64 LED + LASER' => '260,00'
+                )),
             array('titre' => 'LASERS',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    'LASER RADIANT 24 mW 2 COULEURS (BLEU/VERT)' => '47,35',
+                    'TW IN EFFECT LASER 3 COULEURS (40 ET 80 Mw)' => '55,00',
+                    'TW IN BEAM LASER 3 COULEURS (70 ET 150 Mw)' => '70,00',
+                    'LASER FULL COLOR (1W )' => '125,00'
+                )),
             array('titre' => 'DISPATCHING',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    '10 CIRCUITS ON/OFF + FLASH' => '17,10'
+                )),
             array('titre' => 'MODULATEUR / CHENILLARD',
                 'color' => 'blue',
-                'items' => array()),
+                'items' => array(
+                    'LM 400 – 4 x 1KW' => '35,25'
+                )),
             array('titre' => 'PIEDS',
                 'color' => 'green',
-                'items' => array()),
+                'items' => array(
+                    'PIED ALU SIMPLE (3,0 MÈTRES POUR 35 KG MAXIMUM)' => '10,00',
+                    'PIED À TREUIL « WORK LW 155 R » (5,0 MÈTRES POUR 150 KG MAXIMUM)' => '45,00',
+                    'PIED À TREUIL « WORK LW 255 R » (6,0 MÈTRES POUR 255 KG MAXIMUM)' => '55,00',
+                    'PIED À TREUIL (3,0 MÈTRES POUR 60 KG MAXIMUM)' => '18,00',
+                    'PIED « VMB » À TREUIL (3,4 MÈTRES POUR 65 KG MAXIMUM)' => '30,00',
+                    'PIED « VMB » À TREUIL (6,0 MÈTRES POUR 95 KG MAXIMUM)' => '35,00'
+                )),
             array('titre' => 'STRUCTURE TRIANGULAIRE EN 29/29/29',
                 'color' => 'green',
-                'items' => array()),
+                'items' => array(
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 0,29 MÈTRE' => '8,05',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 0,50 MÈTRE' => '8,05',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 0,71 MÈTRE' => '8,05',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 1 MÈTRE' => '8,05',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 1,5 MÈTRES' => '9,26',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 2 MÈTRES' => '9,26',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 3 MÈTRES' => '12,95',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – COINS 2 DIRECTIONS 90° – 2 x HOR. – C003' => '11,68',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – COINS 2 DIRECTIONS 135° – 2 x HOR. – C005' => '14,10',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – COINS 2 DIRECTIONS – 1 x HOR. 1 x VER. – C007' => '11,70',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – COINS 3 DIRECTIONS – 2 x HOR. 1 x VER. – C012' => '14,10',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – COINS 3 DIRECTIONS – 2 x HOR. 1 x VER. – C013' => '14,10',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – COINS 4 DIRECTIONS – 4 x HOR. – C016' => '16,55',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – T 3 DIRECTIONS – 3 x HOR. – C017' => '14,10',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – T 3 DIRECTIONS – 2 x HOR. 1 x VER. – C018' => '14,10',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – T 4 DIRECTIONS – 3 x HOR. 1 x VER. – C020' => '16,55',
+                    'STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ – Cercle 4 MÈTRES DIAMÈTRE (APEX DOWN – 4 CUT)' => '106,80',
+                    'EMBASE POUR STRUCTURE TRIANGULAIRE EN ALUMINIUM SOUDÉ' => '8,50'
+                )),
             array('titre' => 'STRUCTURE CARRÉE EN 29/29/29/29',
                 'color' => 'green',
-                'items' => array()),
+                'items' => array(
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 0,21 MÈTRE' => '9,30',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 0,29 MÈTRE' => '9,30',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 0,50 MÈTRE' => '9,30',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 0,71 MÈTRE' => '9,30',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 1 MÈTRE' => '9,30',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 2 MÈTRES' => '11,70',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 2,5 MÈTRES' => '14,10',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – ÉLÉMENT DE 3 MÈTRES' => '16,55',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – COINS 2 DIRECTIONS – C003' => '14,10',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – COINS 3 DIRECTIONS – C012' => '16,55',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – COINS 4 DIRECTIONS – C016' => '18,95',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – T 3 DIRECTIONS – C017' => '16,55',
+                    'STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ – T 4 DIRECTIONS  – C020' => '18,95',
+                    'EMBASE POUR STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ' => '9,30',
+                    'EMBASE LOURDE (100 CM DE DIAMÈTRE) POUR STRUCTURE CARRÉE EN ALUMINIUM SOUDÉ' => '16,55'
+                )),
             array('titre' => 'ACCESSOIRES DIVERS',
                 'color' => 'green',
-                'items' => array()),
+                'items' => array(
+                    'CROCHET' => '0,90',
+                    'SANGLE' => '0,90',
+                    'CHAINE DE SÉCURITÉ AVEC MOUSQUETON' => '0,90',
+                    'ÉLINGUE ACIER DE SÉCURITÉ AVEC MOUSQUETON' => '0,90',
+                    'SPIGOT TV – M 10' => '0,90',
+                    'T-BAR POUR SUPPORT DE STRUCTURE' => '4,35',
+                    'T-BAR POUR 2 OU 4 PROJECTEURS' => '5,45'
+                )),
             array('titre' => 'LUTRIN, PODIUMS + ACCESSOIRES',
                 'color' => 'red-black',
-                'items' => array()),
+                'items' => array(
+                    'LUTRIN (PUPITRE ORATEUR) POUR CONFÉRENCE EN MDF GRIS VERNIS ET ALU AVEC FIXATION MICRO ET ÉCLAIRAGE' => '28,15',
+                    'LUTRIN (PUPITRE ORATEUR) POUR CONFÉRENCE EN PLEXI TRANSPARENT AVEC FIXATION MICRO ET ÉCLAIRAGE' => '46,30',
+                    'FLEXIBLE D’ÉCLAIRAGE (POUR LUTRIN)' => '12,25',
+                    'PODESTRE (PODIUM) EN 1 MÈTRE SUR 2 MÈTRES ET EN : 40 – 60 – 80 CM DE HAUTEUR' => '19,50',
+                    'ESCALIER POUR PODESTRE 60 CM' => '14,10',
+                    'JUPE POUR PODESTRE EN : 40 – 60 – 80 CM DE HAUTEUR (PRIX AU MÈTRE COURANT)' => '2,50'
+                )),
             array('titre' => 'TEXTILES',
                 'color' => 'red-black',
-                'items' => array()),
+                'items' => array(
+
+                )),
             array('titre' => 'CÂBLAGE ÉLECTRIQUE',
                 'color' => 'yellow',
-                'items' => array()),
+                'items' => array(
+
+                )),
             array('titre' => 'DISTRIBUTION ÉLECTRIQUE',
                 'color' => 'yellow',
                 'items' => array()),
