@@ -829,29 +829,74 @@ class WebsiteController extends Controller
             array('titre' => 'CÂBLAGE ÉLECTRIQUE',
                 'color' => 'yellow',
                 'items' => array(
-
+                    'ALLONGE BLANC MONOPHASÉE = 1 x "M"/"F" EN 220V  – 16A EN 3 MÈTRES' => '1,50',
+                    'ALLONGE BLANC MONOPHASÉE = 1 x "M"/"F" EN 220V – 16A EN 5 MÈTRES' => '2,50',
+                    'ALLONGE BLANC MONOPHASÉE = 1 x "M"/"F" EN 220V – 16A EN 10 MÈTRES' => '5,00',
+                    'MULTIPRISE BLANCHE MONOPHASÉE = 1 x "M" ET 3 x "F" EN 220V – 16A en 1,5 MÈTRES' => '2,50',
+                    'ALLONGE NOIRE MONOPHASÉE = 1 x "M" ET 1 x "F" EN 220V – 32A EN 50 MÈTRES' => '30,00',
+                    'ALLONGE NOIRE TRIPHASÉE = 1 X "M" EN 380V – 32A/63A ET 1 x "F" EN 380V – 32A/63A EN 15 MÈTRES' => '18,00',
+                    'CÂBLE ÉCLATÉ TRIPHASÉ/MONOPHASÉ = 1 x "M" EN 380V – 32A IN / 3 x "F" EN 220V – 16A OUT' => '15,00',
+                    'ALLONGE TRIPHASÉE = 1 x "M" EN 380V – 63A IN / 1 x "F" EN 380V – 32A OUT' => '15,00'
                 )),
             array('titre' => 'DISTRIBUTION ÉLECTRIQUE',
                 'color' => 'yellow',
-                'items' => array()),
+                'items' => array(
+                    'TABLEAU AVEC FUSIBLES TRIPHASÉ/MONOPHASÉ = 1 x "M" 380V – 32A/63A IN / 3 x "F" 220V – 16A' => '25,00',
+                    'TABLEAU AVEC FUSIBLES TRIPHASÉ/MONOPHASÉ = 1 x "M" 380V – 32A/63A IN / 12 x "F" 220V – 16A' => '36,30',
+                    'TABLEAU AVEC FUSIBLES ET DIFFÉRENTIEL TRIPHASÉ/MONOPHASÉ = 1 x "M" 380V – 32A/63A IN / 12 "F" x 220V – 16A' => '65,00'
+                )),
             array('titre' => 'CÂBLAGE SIGNAL / HP',
                 'color' => 'yellow',
-                'items' => array()),
+                'items' => array(
+                    'ALLONGE LIGNE/MICRO (1 x XLR "M" / 1 x XLR "F") 5 MÈTRES' => '3,50',
+                    'ALLONGE LIGNE/MICRO (1 x XLR "M" / 1 x XLR "F") 10 MÈTRES' => '7,25',
+                    'ALLONGE LIGNE/MICRO (1 x XLR "M" / 1 x XLR "F") 20 MÈTRES' => '14,50',
+                    'ALLONGE LIGNE/MICRO (12 x XLR "M" / 4 x XLR "F") 30 MÈTRES' => '21,50',
+                    'ALLONGE HP (SPEAKON) 5 MÈTRES' => '5,00',
+                    'ALLONGE HP (SPEAKON) 10 MÈTRES' => '9,00',
+                    'ALLONGE HP (SPEAKON) 20 MÈTRES' => '16,00',
+                    'ALLONGE HP (SPEAKON) 50 MÈTRES' => '30,00',
+                    'ALLONGE HP (SPEAKON) 100 MÈTRES (SUR ENROULEUR)' => '50,00',
+                    'ALLONGE HD (HDMI) 10 MÈTRES' => '4,50'
+                )),
             array('titre' => 'MATÉRIEL AUDIO-VISUEL – PROJECTEURS VIDÉOS',
                 'color' => 'mauve',
-                'items' => array()),
+                'items' => array(
+                    'VIDÉO CONTROLLER BT-VMS (SWITCH 3 SOURCES)' => '35.00',
+                    'PROJECTEUR (2700 lumens)' => '95,00',
+                    'PROJECTEUR (6000 lumens)' => '230,00',
+                    'ECRAN 50’' => '120.00',
+                    'TOTEM (PIED)' => '30.00'
+                )),
             array('titre' => 'MATÉRIEL AUDIO-VISUEL – ÉCRANS',
                 'color' => 'mauve',
-                'items' => array()),
+                'items' => array(
+                    'DÉROULABLE FACE DE 4 MÈTRES SUR 3 MÈTRES AVEC 2 PIEDS À TREUIL' => '70,00',
+                    'DÉROULABLE 240 CM + PIED CENTRAL' => '50,00',
+                    'ÉCRAN DE RÉTRO-PROJECTION DE 4 MÈTRES SUR 3 MÈTRES AVEC 2 PIEDS À TREUIL' => '70,00',
+                    'ÉCRAN LED P 37,5 VJ 12,5 M² AVEC CONTRÔLEUR PC ET ACCÈS (MONTÉ, GÉRÉ, DÉMONTÉ)' => '850,00',
+                    'TOTEM LED 4 PIEDS 1,2 MÈTRES SUR 2.4 MÈTRES' => '850.00',
+                    'ÉCRAN LED "TRELLIS" AVEC CONTRÔLEUR PC ET ACCÈS DE 12 MÈTRES SUR 2,4 MÈTRES' => '400,00'
+                )),
             array('titre' => 'TRANSPORT ET PRISE EN CHARGE',
                 'color' => 'green-light',
-                'items' => array()),
+                'items' => array(
+                    'PRÉPARATION, PRISE EN CHARGE, CHARGEMENT, TRANSPORT, LIVRAISON ET REPRISE EN CAMIONNETTE 12 m3' => '30,25',
+                    'PRÉPARATION, PRISE EN CHARGE, CHARGEMENT, TRANSPORT, LIVRAISON ET REPRISE EN CAMIONNETTE 20 m3' => '42,35'
+                )),
             array('titre' => 'FRAIS DE KILOMÈTRAGE',
                 'color' => 'green-light',
-                'items' => array()),
+                'items' => array(
+                    'PAR KM PARCOURUS EN CAMIONNETTE 12 m3' => '0,4225',
+                    'PAR KM PARCOURUS EN CAMIONNETTE 20 m3' => '0,6835'
+                )),
             array('titre' => 'MAIN D’OEUVRE',
                 'color' => 'green-light',
-                'items' => array()),
+                'items' => array(
+                    'MONTAGE ET/OU DÉMONTAGE DU MATÉRIEL LOUÉ (PRIX PAR HEURE)' => '70,35',
+                    'PRESTATION D’UN TECHNICIEN/RÉGISSEUR (PRIX PAR HEURE)' => '70,35',
+                    'PRESTATION D’UN TECHNICIEN/RÉGISSEUR (PRIX PAR JOURNÉE)' => '375,00'
+                )),
             array('titre' => 'TARIFS DÉGRESSIF',
                 'color' => 'green-light',
                 'items' => array()),
