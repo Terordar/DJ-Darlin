@@ -55,7 +55,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo" style="height: 60px;"></a>
+                <a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo" style="height: 60px;"></a>
             </div>
 
             <div class="collapse navbar-collapse navbar-right">
@@ -144,9 +144,8 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-68697994-1', 'auto');
+    ga('create', 'UA-61543244-1', 'auto');
     ga('send', 'pageview');
-
 </script>
 </body>
 </html>

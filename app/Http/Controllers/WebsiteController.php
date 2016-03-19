@@ -456,7 +456,7 @@ class WebsiteController extends Controller
     public function sendDevis(DevisRequest $request){
         Mail::send('emails.devis', ['data' => $request], function($message)
         {
-            $message->to('pierreclotuche@gmail.com', 'Pierre Clotuche')->subject('Demande de devis');
+            $message->to('yveslardin@djdarlin.be', 'Yves Lardin')->subject('Demande de devis');
         });
 
         return redirect('/devis')->with('status', '<strong>Parfait!</strong> Nous avons bien reçu votre message. Nous vous contacterons dès que possible.');
@@ -465,7 +465,7 @@ class WebsiteController extends Controller
     public function sendMessage(MessageRequest $request){
         Mail::send('emails.contact', ['data' => $request], function($message)
         {
-            $message->to('pierreclotuche@gmail.com', 'Pierre Clotuche')->subject('Client');
+            $message->to('yveslardin@djdarlin.be', 'Yves Lardin')->subject('Client');
         });
 
         return redirect('contactez-nous')->with('status', '<strong>Parfait!</strong> Nous avons bien reçu votre message. Nous vous contacterons dès que possible.');
