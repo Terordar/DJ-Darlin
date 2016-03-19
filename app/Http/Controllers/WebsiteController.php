@@ -554,9 +554,26 @@ class WebsiteController extends Controller
                     'PIED POUR HP DS 512' => '9,85'
                 )),
             array('titre' => 'KIT RÉGIES DISC-JOCKEY',
+                'no_euro' => true,
                 'color' => 'red',
                 'items' => array(
-
+                    '2 X 150W' => '',
+                    '<br>' => '',
+                    '2 LECTEURS CD SYNQ DMC 1000' => '',
+                    '1 TABLE DE MIXAGE PIONEER DJM' => '',
+                    '1 AMPLI CREST LA 601' => '',
+                    '2 ENCEINTES CELESTION CX 1220' => '',
+                    '1 MICRO SHURE 565 + PIED' => '189,00€',
+                    '<ul><li>IDEM AVEC 4 PROJECTEURS PAR 56 AVEC PIED ET RÉGIE LM 400</li></ul>' => '209,00€',
+                    '<br />' => '',
+                    '2 X 300W' => '',
+                    '<br /> ' => '',
+                    '2 LECTEURS CD SYNQ DMC 1000 ' => '',
+                    '1 TABLE DE MIXAGE RODEC BX 14' => '',
+                    '1 AMPLI CROWN MA 1200' => '',
+                    '2 ENCEINTES ELECTRO-VOICE SX 300' => '',
+                    '1 MICRO SHURE 565 + PIED ' => '199,00€',
+                    '<ul><li>IDEM AVEC 4 PROJECTEURS PAR 56 AVEC PIED ET RÉGIE LM 400 </li></ul>' => '219,00€',
                 )),
             array('titre' => 'KIT 2 HP + 1 AMPLI + CÂBLES',
                 'color' => 'red',
@@ -567,10 +584,25 @@ class WebsiteController extends Controller
                 )),
             array('titre' => 'KIT KARAOKÉ',
                 'color' => 'red',
-                'items' => array()),
+                'no_euro' => true,
+                'items' => array(
+                    '<i><b>ÉCRAN(S) DE TÉLÉVISION(S) NON FOURNI(S)</b></i>' => '',
+                    'KIT POUR PRESTATION KARAOKÉ AVEC 450 TITRES' => '',
+                    '<br>' => '',
+                    '1 RACK COMPRENANT UNE MIXETTE AVEC RÉVERBE KM 1.4 + AMPLI' => '',
+                    '2 MICROS SHURE SM 58' => '',
+                    '2 ENCEINTES ELECTRO-VOICE SX 100' => '',
+                    'CONNEXION À VOTRE DVD OU PC ET À VOTRE TV' => '170,00€'
+                )),
             array('titre' => 'KIT CONFÉRENCE',
                 'color' => 'red',
-                'items' => array()),
+                'no_euro' => true,
+                'items' => array(
+                    '1 MICRO CONFÉRENCIER DE TABLE SHURE MX 418 D (COL DE CYGNE AVEC EMBASE ET SWITCH)' => '',
+                    '1 MIXETTE AUTOMATIQUE SHURE SCM 810' => '',
+                    '2 ENCEINTES AMPLIFIÉES QSC K8 + PIEDS' => '165,00€',
+                    '<ul><li>IDEM AVEC LUTRIN "CLASSIC" ET MICRO COL DE CYGNE POUR LUTRIN SHURE MX 412 SN</li></ul>' => '179,00€'
+                )),
             array('titre' => 'INTERPHONIE',
                 'color' => 'red',
                 'items' => array(
@@ -823,8 +855,15 @@ class WebsiteController extends Controller
                 )),
             array('titre' => 'TEXTILES',
                 'color' => 'red-black',
+                'no_euro' => true,
                 'items' => array(
-
+                    '<b><i>LA LOCATION DES PENDRILLONS N’EST POSSIBLE QUE LORSQUE NOTRE PERSONNEL S’OCCUPE DU MONTAGE DU MATÉRIEL.</i></b>' => '',
+                    'PENDRILLON MOLLETON IGNIFUGÉ – NOIR EN 3,22 MÈTRES SUR 4,22 MÈTRES (PRIX À LA PIÈCE)' => '29,20 €',
+                    'PENDRILLON MOLLETON IGNIFUGÉ – ÉCRU EN 3,22 MÈTRES SUR 4,22 MÈTRES (PRIX À LA PIÈCE)' => '29,20 €',
+                    'PENDRILLON MOLLETON IGNIFUGÉ – NOIR EN 4,00 MÈTRES SUR 6,00 MÈTRES (PRIX À LA PIÈCE)' => '38,90 €',
+                    'PENDRILLON MOLLETON IGNIFUGÉ – ÉCRU EN 4,00 MÈTRES SUR 6,00 MÈTRES (PRIX À LA PIÈCE)' => '38,90 €',
+                    'PENDRILLON MOLLETON IGNIFUGÉ – NOIR EN 5,00 MÈTRES SUR 6,00 MÈTRES (PRIX À LA PIÈCE)' => '41,30 €',
+                    'PENDRILLON MOLLETON IGNIFUGÉ – ÉCRU EN 3,42 MÈTRES SUR 7,85 MÈTRES (PRIX À LA PIÈCE)' => '51,00 €'
                 )),
             array('titre' => 'CÂBLAGE ÉLECTRIQUE',
                 'color' => 'yellow',

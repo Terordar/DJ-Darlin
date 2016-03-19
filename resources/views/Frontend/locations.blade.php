@@ -67,7 +67,7 @@
                 <br>
             <div class="row">
                 @foreach($location["items"] as $key => $value)
-                <div class=" @if(!isset($location['one_line'])) col-md-10 @else col-md-12 @endif">{{ $key }}</div>
+                <div class=" @if(!isset($location['one_line'])) col-md-10 @else col-md-12 @endif">{!! $key !!}</div>
                 @if(!isset($location['one_line']))
                 <div class="col-md-2 text-right">{{ $value }}
                     @if(!isset($location['no_euro'])) € @endif</div>
