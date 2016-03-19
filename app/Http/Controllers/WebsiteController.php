@@ -899,22 +899,62 @@ class WebsiteController extends Controller
                 )),
             array('titre' => 'TARIFS DÉGRESSIF',
                 'color' => 'green-light',
-                'items' => array()),
+                'no_euro' => true,
+                'items' => array(
+                    '1 JOUR' => 'x 1,0',
+                    '2 JOURS' => 'x 1,5',
+                    '3 JOURS' => 'x 1,8',
+                    '4 JOURS' => 'x 2,1',
+                    '5 JOURS' => 'x 2,2',
+                    '1 SEMAINE' => 'x 2,5',
+                    '10 JOURS' => 'x 3,0',
+                    '2 SEMAINES' => 'x 3,5',
+                    '3 SEMAINES' => 'x 3,8',
+                    '1 MOIS' => 'x 4,0'
+                )),
             array('titre' => 'CAUTIONS',
+                'one_line' => true,
                 'color' => 'green-light',
-                'items' => array()),
+                'items' => array(
+                    'LE PAYEMENT D’UNE GARANTIE DE MINIMUM 200,00 € EN CASH SERA DEMANDÉ AU CLIENT POUR UNE LOCATION "CLASSIQUE".' => '',
+                    'LE PAYEMENT D’UNE GARANTIE DE MINIMUM 750,00 € EN CASH SERA DEMANDÉ AU CLIENT POUR UNE LOCATION "VIDÉO ET ÉCRAN".' => '',
+                    'CE MONTANT LUI SERA RESTITUÉ APRÈS VÉRIFICATION DU MATÉRIEL.' => ''
+                )),
             array('titre' => 'PAIEMENT',
+                'one_line' => true,
                 'color' => 'green-light',
-                'items' => array()),
+                'items' => array(
+                    'LE MONTANT TOTAL DE LA LOCATION SERA PAYÉ À NOTRE ADRESSE, AU GRAND COMPTANT ET SANS ESCOMPTE, LE JOUR DE L’ENLÈVEMENT DU MATÉRIEL, SAUF INDICATION CONTRAIRE AU MOMENT DE LA COMMANDE.' => ''
+                )),
             array('titre' => 'CONDITIONS GÉNÉRALES',
+                'one_line' => true,
                 'color' => 'green-light',
-                'items' => array()),
+                'items' => array(
+                    'LA RÉSERVATION NE SERA EFFECTIVE QU’APRÈS SIGNATURE D’UN CONTRAT DE LOCATION ET PERCEPTION DE LA CAUTION. PAR LA SEULE SIGNATURE DU CONTRAT DE LOCATION, LE CLIENT S’EST OBLIGÉ AU RESPECT DES CONDITIONS GÉNÉRALES DE LOCATION DE LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS ».' => '',
+                    'LE MATÉRIEL VOYAGE AUX RISQUES ET PÉRILS DU CLIENT.' => '',
+                    'EN CAS D’ANNULATION DE LA LOCATION APRÈS SIGNATURE DU CONTRAT, LE CLIENT S’ENGAGE À PAYER LA MOITIÉ DU PRIX DE LA LOCATION S’IL A PRÉVENU LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » AU MOINS 48H AVANT LA DATE DE LOCATION. PASSÉ CE DÉLAIS, LA TOTALITÉ SERA DUE. EN CAS D’ANNULATION, UN ACCORD ÉCRIT SERA TOUJOURS RÉDIGÉ ET SIGNÉ PAR LES DEUX PARTIES.' => '',
+                    'LE CLIENT S’ENGAGE À REMETTRE LE MATÉRIEL AUX JOURS ET HEURES PRÉVUS. EN CAS DE RETARD, LE CLIENT DEVRA PAYER LA SOMME DE LOCATION JOURNALIÈRE (PRIX TARIF) PAR JOUR DE RETARD. CETTE SOMME EST IRRÉDUCTIBLE ET FORFAITAIRE.' => '',
+                    'LE CLIENT PRENDRA TOUTES LES MESURES NÉCESSAIRES AFIN DE NE PAS PRIVER LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » DE SON MATÉRIEL PASSÉ LA DURÉE DE LOCATION DÉTERMINÉE.' => '',
+                    'LE CLIENT S’ENGAGE À REMETTRE LE MATÉRIEL DANS UN ÉTAT IMPECCABLE. LE NETTOYAGE DU MATÉRIEL SOUILLÉ SERA TOUJOURS FACTURÉ AU CLIENT. (PAR EXEMPLE : POUR TOUS CÂBLE RENTRÉ NON ROULÉ PROPREMENT ET INDIVUELLEMENT, IL SERA COMPTÉ LA SOMME DE 5,00 € PAR CÂBLE)' => '',
+                    'LE CLIENT RESTE SEUL RESPONSABLE VIS- À -VIS DE LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » ET S’ENGAGE À SUPPORTER LES FRAIS RÉSULTANT DES DÉTÉRIORATIONS AU MATÉRIEL LOUÉ, À SA PERTE, SON VOL, ETC. LE CLIENT EST CENSÉ CONTRACTER UNE ASSURANCE EN CE SENS. LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » SE RÉSERVE LE DROIT D’EXIGER LA PREUVE DE LA PRISE DE CE TYPE D’ASSURANCE. TOUT APPAREIL MANQUANT SERA CONSIDÉRÉ COMME NEUF ET FACTURÉ AU PRIX DE VENTE CATALOGUE EN VIGUEUR À CE JOUR.' => '',
+                    'LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » DISPOSE DE 48H POUR VÉRIFIER LE BON FONCTIONNEMENT À DATER DE SON RETOUR. TOUTE REMISE EN ETAT ÉVENTUELLE OU RÉPARATION SERA FACTURÉE ENDÉANS LES QUINZE JOURS SUIVANT LA RENTRÉE DU MATÉRIEL ET SERA PAYABLE AU GRAND COMPTANT.' => '',
+                    'LE CLIENT S’ENGAGE À NE PAS METTRE EN CAUSE, SOUS QUELQUE FORME QUE CE SOIT, LA RESPONSABILITÉ DE LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » EN CAS DE DOMMAGES, D’ACCIDENTS, DE NUISSANCES OU DE PROBLÈMES QUELCONQUES POUVANT RESULTER DE L’UTILISATION DU MATÉRIEL LOUÉ.' => '',
+                    'LE FAIT QUE LE TRANSPORT ET/OU LE MONTAGE DU MATÉRIEL SOIT EFFECTUÉ PAR LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » N’ENLÈVE EN RIEN LA RESPONSABILITÉ DU PRENEUR QUANT AU CONTENU DES CONDITIONS GÉNÉRALES DE LOCATION REPRISES CI-AVANT.' => '',
+                    'LES LISTES DE PRIX DE LOCATION SONT EDITÉES À TITRE INFORMATIF. LA « SONORISATION DJ DARLIN’ MUSIC & LIGHTS » SE RÉSERVE LE DROIT DE MODIFICATION À TOUS MOMENTS, SANS PRÉAVIS  ET POUR TOUTES OCCASIONS.' => '',
+                    'EN CAS DE LITIGE, SEULS LES TRIBUNAUX DE LIÈGE SONT COMPÉTENTS.' => ''
+                )),
             array('titre' => 'DATE DE MISE À JOUR',
+                'one_line' => true,
                 'color' => 'blue-black',
-                'items' => array()),
+                'items' => array(
+                    '21/12/2015' => ''
+                )),
             array('titre' => 'INFORMATIONS DIVERSES',
+                'one_line' => true,
                 'color' => 'blue-black',
-                'items' => array()),
+                'items' => array(
+                    'UNE MULTITUDE D’AUTRES ÉVÈNEMENTS PEUVENT VOUS ÊTRE PROPOSÉS (CONCERTS, SPECTACLES, SON & LUMIÈRE, DÉFILÉS DE MODE, SOIRÉES, INAUGURATIONS, PORTES OUVERTES, BRADERIES, BROCANTES, FÊTES FAMILIALES, ETC.) SUR SIMPLE DEMANDE, NOUS VOUS FERONS PARVENIR UN DEVIS GRATUIT EN FONCTION DE VOS DÉSIDÉRATAS !' => ''
+                )),
         );
 
         return view('Frontend.locations', compact('listLocation'));
